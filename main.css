@@ -1,0 +1,67 @@
+/* CSS External */
+:root{
+    --text-color: lightblue;
+}
+*{
+    color: blueviolet;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 20px;
+}
+/* li{color: blue; font-size: small; margin: auto;} 
+#first-heading.first-heading{color: var(--text-color) !important; font-size: 360px;}
+p{color: brown;}
+.list .bodylist1{color: chocolate;}
+div.box{color: bisque;}
+div, p{color: chartreuse;}
+div p{color: coral;}
+div > li{color: burlywood;}
+div + tr{color:cadetblue;}
+div ~ th{color: crimson;}*/
+.box{
+    height: 450px;
+    font-size: 12px;
+
+}
+.box .box1{
+    background-color: #a22626;
+    height: 25%;
+    font-size: 1rem;
+}
+.box .box2{
+    background-color: #a384a3;
+    height: 30%;
+    font-size: 0.5rem;
+}
+.box .box3{
+    background-color: #b532b5;
+    height: 45%;
+    font-size: 2em;
+}
+.first-heading:hover:hover{
+    background-color: #b532b5;
+    font-size: 50px;
+}
+p:active{
+    background-color: #a22626;
+    font-size: 30px;
+}
+.box1::after{
+    content: "";
+    display: block;
+    background-color: aliceblue;
+    width: 50px;
+    height: 50px;
+}
+.box1::before{
+    content: "";
+    display: block;
+    background-color: aliceblue;
+    width: 50px;
+    height: 50px;
+}
+.first-heading::first-line{
+    font-size: 50px;
+}
